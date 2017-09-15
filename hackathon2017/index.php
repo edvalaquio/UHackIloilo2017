@@ -16,7 +16,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-default">
-		<div class="navbar-brand">Pagbulig</div>
+		<div class="navbar-brand"><a href="#!/">Pagbulig</a></div>
 	</nav>
 	<section ng-view></section>
 	<footer>
