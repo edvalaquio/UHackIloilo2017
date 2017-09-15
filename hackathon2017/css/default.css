@@ -1,3 +1,11 @@
+.navbar-default{
+	background-color: #191970;
+}
+
+.navbar-default .navbar-nav > li{
+	font-size: 20px;
+}
+
 .index-login, .index-login-button, .index-register{
 	display: flex;
 	justify-content: center;
@@ -22,6 +30,7 @@ a{
 	cursor: pointer; 
 }
 
+/*<<<<<<< HEAD
 .navbar{
 	border-radius: 0;
 	padding: 0;
@@ -41,4 +50,15 @@ a{
 
 .navbar-brand:hover{
 	background-color: rgb(216, 73, 23);
+=======*/
+body{
+	padding-top: 80px;
+}
+
+html{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
 }
