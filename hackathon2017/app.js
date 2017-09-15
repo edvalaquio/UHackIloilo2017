@@ -3,8 +3,14 @@
 var app = angular.module("myApp", ["ngRoute", "controllers.indexController"]);
 app.config(function($routeProvider){
     $routeProvider
-    .when("/hello", {
-        templateUrl : "index.php",
+    .when("/", {
+        templateUrl : "partials/home.php",
         controller: "indexController"
+    })
+    .when("/login", {
+        templateUrl : "partials/login.php"
+    })
+    .when("/register", {
+        templateUrl : "partials/register.php"
     });
 });

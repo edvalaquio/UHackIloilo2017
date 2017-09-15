@@ -1,0 +1,4 @@
+.index-login, .index-login-button, .index-register{
+	display: flex;
+	justify-content: center;
+}
