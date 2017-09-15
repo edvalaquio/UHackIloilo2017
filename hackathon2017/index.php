@@ -13,6 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
 	<script src="controllers/indexController.js"></script>
+	<script src="controllers/userController.js"></script>
 	<script src="app.js"></script>
 </head>
 <body>

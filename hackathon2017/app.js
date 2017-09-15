@@ -8,9 +8,17 @@ app.config(function($routeProvider){
         controller: "indexController"
     })
     .when("/login", {
-        templateUrl : "partials/login.php"
+        templateUrl : "partials/login.php",
+        controller: "indexController"
     })
     .when("/register", {
         templateUrl : "partials/register.php"
+    })
+    .when("/users/:username", {
+        templateUrl : "partials/usersHome.php",
+        controller: "userController.js"
+    })
+    .otherwise({
+        redirectTo: "/"
     });
 });
