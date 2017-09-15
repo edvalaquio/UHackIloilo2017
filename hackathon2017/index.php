@@ -16,8 +16,10 @@
 	<script src="app.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="navbar-brand"><a href="#!/">Pagbulig</a></div>
+	<nav class="navbar navbar-inverse">
+		<a href="#!/"><img class="img-responsive navbar-icon" src="img/nav-icon.png" /></a>
+		<div class="navbar-brand"><a href="#!/">Pagta-o</a>
+		</div>
 	</nav>
 	<section ng-view></section>
 	<footer>
