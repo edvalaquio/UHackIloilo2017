@@ -12,12 +12,12 @@
 							<!-- <legend class="text-center display-3">Login</legend> -->
 							<div class="form-group col-lg-12">
 								<!-- <div class="col-lg-10"> -->
-									<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+									<input type="text" ng-model="username" class="form-control" id="inlineFormInputGroup" placeholder="Username">
 								<!-- </div> -->
 							</div>
 							<div class="form-group col-lg-12">
 								<!-- <div class="col-lg-10"> -->
-									<input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+									<input type="password" ng-model="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
 								<!-- </div> -->
 							</div>
 	<!-- 						<div class="form-check mb-2 mr-sm-2 mb-sm-0">
@@ -27,7 +27,8 @@
 							</div> -->
 							<!-- <div class="form-group"> -->
 								<div class="col-xs-12 index-login-button">
-									<button type="submit" class="btn btn-primary">Submit</button>
+									<button ng-click="loginUser()" type="submit" class="btn btn-primary">Submit</button>
+									<!-- <a href="#!/profile" class="btn btn-primary">Submit</a> -->
 								</div>
 							<!-- </div> 	 -->
 						</fieldset>

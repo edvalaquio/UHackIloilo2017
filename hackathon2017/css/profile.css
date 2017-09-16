@@ -1,0 +1,16 @@
+.profile-display{
+	border: 5px solid #191970;
+	border-radius: 50%;
+	height:200px;
+	width:200px;
+	text-align: center;
+}
+
+.glyphicon.glyphicon-user{
+	margin-top: 35px;
+	font-size:100px;
+}
+
+.profile-display-text{
+	font-size: 12pt;
+}

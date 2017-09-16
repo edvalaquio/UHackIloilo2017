@@ -9,6 +9,7 @@
 	<link href="css/bootswatchpapertheme.min.css" rel="stylesheet">
 	<link href="css/default.css" rel="stylesheet">
 	<link href="css/login.css" rel="stylesheet">
+	<link href="css/profile.css" rel="stylesheet">
 	<link href="css/home.css" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -16,13 +17,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
 	<script src="controllers/indexController.js"></script>
+	<script src="controllers/userController.js"></script>
 	<script src="app.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#!/"><span class="glyphicon glyphicon-link"></span> Pagta-o</a>
+				<a class="navbar-brand" href="#!/"><span class="glyphicon glyphicon-grain"></span> Pagta-o</a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">

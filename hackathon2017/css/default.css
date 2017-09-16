@@ -1,5 +1,5 @@
 .navbar-default{
-	background-color: #191970;
+	/*background-color: #191970;*/
 }
 
 .navbar-default .navbar-nav > li{
@@ -24,6 +24,14 @@
 .index-register-choice p{
 	font-size: 20px;
 	padding-bottom: 10px;
+}
+
+/*.btn-primary{
+	background-color: blue;
+}
+*/
+.btn-secondary{
+	background-color: lightblue;
 }
 
 a{
