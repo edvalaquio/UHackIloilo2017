@@ -2,8 +2,17 @@ body{
   padding-top: 0;
 }
 
+header{
+  padding-bottom: 0;
+}
+
 .bg-color{
   background-color: #A9D8E7;
+}
+
+.padding-about{
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .heightpadding{
@@ -14,14 +23,14 @@ body{
 .wrapper {
     font-family:'Lato', sans-serif;
     font-size:1em;
-    color:#777;
+    color:#7777;
     font-weight:300;
     line-height:1.7;
     overflow-x:hidden;
 }
  
 h1,h2,h3,h4,h5,h6 {
-    color:#333;
+    color:#3333;
     line-height:1.4;
     font-weight:700;
 }
@@ -57,14 +66,6 @@ header {
     line-height:1;
     font-weight:300;
     color:#0000;
-}
- 
-.learn {
-    font-family:'Lato';
-    font-size:27px;
-    line-height:1.4;
-    font-weight:300;
-    color:#fff;
 }
  
 .jumbotron-fluid {
