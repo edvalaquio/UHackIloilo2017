@@ -4,8 +4,7 @@ var app = angular.module("myApp", ["ngRoute", "controllers.indexController"]);
 app.config(function($routeProvider){
     $routeProvider
     .when("/", {
-        templateUrl : "partials/home.php",
-        controller: "indexController"
+        templateUrl : "partials/home.php"
     })
     .when("/login", {
         templateUrl : "partials/login.php"
