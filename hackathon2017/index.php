@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-	<title>Pagta-o - Hackathon 2017</title>
+	<title>Pagta-o</title>
 
 	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />

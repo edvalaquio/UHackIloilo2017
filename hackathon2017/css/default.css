@@ -38,6 +38,27 @@ a{
 	cursor: pointer; 
 }
 
+/*<<<<<<< HEAD
+.navbar{
+	border-radius: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.navbar-brand > a{
+	color: #f8f8ff;
+	text-decoration: none;
+}
+
+.navbar-icon{
+	width: 80px;
+	height: 80px;
+}
+
+.navbar-brand:hover{
+	background-color: rgb(216, 73, 23);
+=======*/
 body{
 	padding-top: 80px;
 }
