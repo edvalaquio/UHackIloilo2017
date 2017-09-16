@@ -7,7 +7,7 @@ angular.module("controllers.indexController", [])
 	    console.log("Here in indexController!");
 
 	    $scope.loginUser = function(){
-	    	$window.location.href = "#!/";
+	    	$window.location.href = "#!/profile/" + $scope.username;
 	    	// console.log($scope.username);
 	    }
 	}]);
