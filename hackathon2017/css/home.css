@@ -1,8 +1,112 @@
+body{
+  padding-top: 0;
+}
+
 .bg-color{
-  background-color: lightblue;
+  background-color: #A9D8E7;
 }
 
 .heightpadding{
-  height: 405px;
+  height: 580px;
   padding-top: 170px;
+}
+
+.wrapper {
+    font-family:'Lato', sans-serif;
+    font-size:1em;
+    color:#777;
+    font-weight:300;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+    color:#333;
+    line-height:1.4;
+    font-weight:700;
+}
+ 
+.mx-width {
+    max-width:960px;
+    margin:0 auto;
+}
+ 
+a,a:hover {
+    color:#563d7c;
+    text-decoration:none;
+}
+ 
+img{
+  width:100%;
+  max-width: 100%;
+  height:auto;
+}
+
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+ 
+header {
+    padding-bottom:50px;
+}
+ 
+.display-2 {
+    font-family:'Lato';
+    font-size:60px;
+    line-height:1;
+    font-weight:300;
+    color:#0000;
+}
+ 
+.learn {
+    font-family:'Lato';
+    font-size:27px;
+    line-height:1.4;
+    font-weight:300;
+    color:#fff;
+}
+ 
+.jumbotron-fluid {
+    padding:0;
+}
+
+.parallax {
+    text-align:center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed!important;
+    overflow:hidden;
+}
+ 
+.parallax-pattern-overlay {
+    background-image:url(../img/pattern.png);
+    background-repeat:repeat;
+}
+
+.heading {
+    padding-bottom:15px;
+    text-align:center;
+    max-width:960px;
+    margin:0 auto;
+    padding-top:80px;
+}
+ 
+.heading h2 {
+    font-weight:600;
+    font-family:'Raleway';
+    font-size:40px;
+    color:#333;
+    margin:0;
+    padding:5px;
+}
+ 
+.heading h3 {
+    font-size:1em;
+    line-height:1.7;
+}
+ 
+#site-title {
+    max-width:150px;
 }
