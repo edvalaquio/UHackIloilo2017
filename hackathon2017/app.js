@@ -16,10 +16,6 @@ app.config(function($routeProvider){
     .when("/register", {
         templateUrl : "partials/register.php"
     })
-    .when("/users/:username", {
-        templateUrl : "partials/usersHome.php",
-        controller: "userController.js"
-    })
     .otherwise({
         redirectTo: "/"
     });

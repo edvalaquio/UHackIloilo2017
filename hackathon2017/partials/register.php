@@ -6,7 +6,7 @@
 					<p class="text-center">Choose your type of user you will register as:</p>
 					<span class="index-register-buttons">
 						<button ng-click="userType='org'" class="btn btn-primary btn-lg">Organization</button>
-						<button ng-click="userType='indi'" class="btn btn-secondary btn-lg">Individual</button>
+						<button ng-click="userType='indi'" class="btn btn-info btn-lg">Individual</button>
 					</span>
 				</div>
 			</div>
@@ -35,10 +35,22 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="textArea" class="col-lg-2 control-label">Textarea</label>
+									<label for="inputPassword" class="col-lg-2 control-label">Confirm Password</label>
+									<div class="col-lg-10">
+										<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="textArea" class="col-lg-2 control-label">Bio</label>
 									<div class="col-lg-10">
 										<textarea class="form-control" rows="3" id="textArea"></textarea>
-										<span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+										<!-- <span class="help-block">/</span> -->
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-lg-2 control-label">Upload Your Photo</label>
+									<div class="col-lg-10">
+										<input type="file" class="form-control" id="profilePicture" placeholder="Password">
 									</div>
 								</div>
 								<div class="form-group">
@@ -57,11 +69,17 @@
 								<div class="form-group">
 									<label for="inputEmail" class="col-lg-2 control-label">Email</label>
 									<div class="col-lg-10">
-										<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+										<input type="text" class="form-control" id="inputEmail" placeholder="May be personal or the organization's">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="inputEmail" class="col-lg-2 control-label">Username</label>
+									<label for="inputEmail" class="col-lg-2 control-label">Organization Username</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputEmail" placeholder="Username">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="col-lg-2 control-label">Organization Name</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" id="inputEmail" placeholder="Username">
 									</div>
@@ -73,10 +91,15 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="textArea" class="col-lg-2 control-label">Textarea</label>
+									<label for="inputPassword" class="col-lg-2 control-label">Confirm Password</label>
+									<div class="col-lg-10">
+										<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="textArea" class="col-lg-2 control-label">Describe your organization</label>
 									<div class="col-lg-10">
 										<textarea class="form-control" rows="3" id="textArea"></textarea>
-										<span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
 									</div>
 								</div>
 								<div class="form-group">
@@ -85,6 +108,9 @@
 										<button type="submit" class="btn btn-primary">Submit</button>
 									</div>
 								</div>
+								<map center="[[locations]]" marker="14.535058, 120.9799433" id="event_map" zoom="16" ng-show="locations">
+									<marker position="[[locations]]"></marker>
+								</map>
 							</fieldset>
 						</form>
 					</div>
