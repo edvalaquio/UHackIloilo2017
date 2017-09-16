@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<header>
 		<div class="jumbotron jumbotron-fluid" id="banner">
-			<div class="parallax text-center bg-color">
+			<div class="parallax text-center">
 				<div class="parallax-pattern-overlay">
 					<div class="container text-center heightpadding">
 						 <a href="#"><img id="site-title" src="img/nav-icon.png" alt="logo" /></a>
@@ -12,7 +12,7 @@
 		</div>
 	</header>
 	<div class="jumbotron jumbotron-fluid" id="banner">
-		<div class="parallax text-center">
+		<div class="parallax text-center bg-color">
 			<div class="parallax-pattern-overlay">
 				<section class="about-us" id="about-us">
 					<div class="container text-center heightpadding">
@@ -27,22 +27,60 @@
 		</div>
 	</div>
 	<div class="jumbotron jumbotron-fluid" id="banner">
-		<div class="parallax text-center bg-color">
+		<div class="parallax text-center">
 			<div class="parallax-pattern-overlay">
 				<section class="features" id="features">
-					<div class="container heightpadding">
+					<div class="container">
 						<div class="row">
-							<div class="col-lg-12">
-								<p class="display-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac leo quam. Aenean gravida diam vitae luctus bibendum. Ut dignissim laoreet velit at tempor. Donec pulvinar eros at enim molestie, volutpat aliquet ligula ultrices. Quisque pharetra suscipit felis, vitae commodo felis sagittis nec. Aenean accumsan metus vel suscipit tincidunt. Sed eget nisi at urna pretium pretium. Morbi cursus semper quam, id tempus lacus finibus ac. Nulla non elit risus. Donec ac feugiat ex, eu molestie lorem. In imperdiet nulla eros, nec ultricies magna posuere et. Duis lacus metus, aliquet vel ullamcorper ac, condimentum nec risus. Aliquam quis interdum libero, in sagittis ex. Proin iaculis turpis et mauris cursus bibendum nec eget est. Duis malesuada suscipit ex at pretium.</p>
+							<h3 class="display-1">Features</h3>
+							<div class="col-md-3">
+								<div class="card card-inverse card-primary text-center">
+									<img class="card-img-top" src="img/teamwork.png" alt="Volunteer Attraction" />
+									<div class="card-block">
+										<h4 class="card-title">Volunteer Management</h4>
+										<p>Keep track of volunteers and their progress.</p>
+										<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+									</div>
+								</div>
 							</div>
-						</div>
+							<div class="col-md-3">
+								<div class="card card-inverse card-success text-center">
+									<img class="card-img-top img-responsive" src="img/health-care.png" alt="Donate" />
+									<div class="card-block">
+										<h4 class="card-title">Donor CRM and Engagement</h4>
+										<p>Get to know organizations or companies that use CRM.</p>
+ 										<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-inverse card-primary text-center">
+									<img class="card-img-top" src="img/map.png" alt="location" />
+									<div class="card-block">
+										<h4 class="card-title">Location-wise</h4>
+										<p>Find volunteer work near you.</p>
+										<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-inverse card-primary text-center">
+									<img class="card-img-top" src="img/badge.png" alt="reward" />
+									<div class="card-block">
+										<h4 class="card-title">Rewards</h4>
+										<p>Get to know about the implementation of corporate social responsibility tax deduction for sponsoring companies.</p>
+										<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+									</div>
+								</div>
+							</div>	
+						</div>	
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
 	<div class="jumbotron jumbotron-fluid" id="banner">
-		<div class="parallax text-center">
+		<div class="parallax text-center bg-color">
 			<div class="parallax-pattern-overlay">
 				<section class="join-us" id="join-us">
 					<div class="container text-center heightpadding">

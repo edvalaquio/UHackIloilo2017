@@ -36,7 +36,7 @@
 	</nav>
 	<section ng-view></section>
 	<footer>
-		<p class="text-center">This is something I did while not yet sabaw.</p>
+		<p class="text-center">&copy; Copyright 2017, Pagta-o</p>
 	</footer>
 </body>
 </html>
