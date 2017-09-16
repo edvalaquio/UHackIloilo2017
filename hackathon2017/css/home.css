@@ -1,11 +1,8 @@
-.cont-1{
-  padding: 0;
-  margin: 0;
-}
-
-.bg-1{
-  padding: 0;
-  margin: 0;
+.bg-color{
   background-color: lightblue;
 }
 
+.heightpadding{
+  height: 405px;
+  padding-top: 170px;
+}
