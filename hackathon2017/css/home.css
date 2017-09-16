@@ -1,5 +1,6 @@
 body{
   padding-top: 0;
+  background-color: #ffffff;
 }
 
 header{
@@ -10,14 +11,9 @@ header{
   background-color: #A9D8E7;
 }
 
-.padding-about{
-  padding-left: 1px;
-  padding-right: 1px;
-}
-
 .heightpadding{
   height: 580px;
-  padding-top: 170px;
+  padding-top: 200px;
 }
 
 .wrapper {
@@ -52,8 +48,8 @@ img{
 }
 
 .card-img-top{
-  width:100%;
-  height:auto;
+  width:100px;
+  height:100px;
 }
  
 header {
@@ -70,6 +66,7 @@ header {
  
 .jumbotron-fluid {
     padding:0;
+    background-color: #ffffff;
 }
 
 .parallax {
@@ -110,4 +107,9 @@ header {
  
 #site-title {
     max-width:150px;
+}
+
+.heightf{
+  height: 580px;
+  padding-bottom: 200px;
 }
