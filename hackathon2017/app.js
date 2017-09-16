@@ -10,6 +10,9 @@ app.config(function($routeProvider){
     .when("/login", {
         templateUrl : "partials/login.php"
     })
+    .when("/profile", {
+        templateUrl : "partials/profile.php"
+    })
     .when("/register", {
         templateUrl : "partials/register.php"
     });
