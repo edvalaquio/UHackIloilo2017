@@ -28,6 +28,7 @@
 							<!-- <div class="form-group"> -->
 								<div class="col-xs-12 index-login-button">
 									<button ng-click="loginUser()" type="submit" class="btn btn-primary">Submit</button>
+									<!-- <a href="#!/profile" class="btn btn-primary">Submit</a> -->
 								</div>
 							<!-- </div> 	 -->
 						</fieldset>

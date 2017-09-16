@@ -11,6 +11,9 @@ app.config(function($routeProvider){
         templateUrl : "partials/login.php",
         controller: "indexController"
     })
+    .when("/profile", {
+        templateUrl : "partials/profile.php"
+    })
     .when("/register", {
         templateUrl : "partials/register.php"
     })

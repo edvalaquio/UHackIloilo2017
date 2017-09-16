@@ -6,7 +6,7 @@
 					<p class="text-center">Choose your type of user you will register as:</p>
 					<span class="index-register-buttons">
 						<button ng-click="userType='org'" class="btn btn-primary btn-lg">Organization</button>
-						<button ng-click="userType='indi'" class="btn btn-info btn-lg">Individual</button>
+						<button ng-click="userType='indi'" class="btn btn-secondary btn-lg">Individual</button>
 					</span>
 				</div>
 			</div>
